@@ -19,7 +19,7 @@ portfolio/
 ├── vite.config.js                   # Dev server + tunneled-host allowlist
 ├── vercel.json                      # Vercel deploy config
 ├── public/
-│   └── Suganthi Backend Developer.pdf   # Downloadable résumé
+│   └── Suganthi Backend Developer.pdf   # Downloadable resume
 ├── src/
 │   ├── main.jsx                     # React entry
 │   ├── App.jsx                      # Section composition
@@ -38,7 +38,7 @@ portfolio/
 
 ## Sections
 
-1. **Hero**: headline, dual role chips (Backend-first), 3 animated stats, résumé download
+1. **Hero**: headline, dual role chips (Backend-first), 3 animated stats, resume download
 2. **About**: backend-focused summary + quick-facts card
 3. **Experience**: vertical timeline (3 roles, 2018 to present)
 4. **Skills**: backend featured with proficiency bars; databases, frontend, integrations, tools, AI-assisted
@@ -69,7 +69,7 @@ npm run preview  # preview the production build
 
 ## Deploy
 
-**Vercel** (matches the URL in the résumé):
+**Vercel** (matches the URL in the resume):
 ```bash
 npm i -g vercel
 vercel --prod
@@ -81,7 +81,7 @@ Vercel auto-detects Vite via `vercel.json`. **Netlify**: build command `npm run 
 - **All content** goes in `src/data/portfolio.js` (profile, stats, experience, skills, projects, education).
 - **Colors / theme** are CSS variables in the `:root` block of `src/index.css`.
 - **Skill bar levels** are the `level` values in `featuredSkills` (data file).
-- **Résumé** can be replaced at `public/Suganthi Backend Developer.pdf` (keep the name) or repointed via `profile.resume`.
+- **Resume** can be replaced at `public/Suganthi Backend Developer.pdf` (keep the name) or repointed via `profile.resume`.
 
 ## Notes
 

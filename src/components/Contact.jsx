@@ -42,7 +42,7 @@ export default function Contact() {
               Send me an email
             </a>
             <a href={profile.resume} className="btn btn--ghost btn--lg" download>
-              Download Résumé
+              Download Resume
             </a>
           </div>
         </Reveal>
